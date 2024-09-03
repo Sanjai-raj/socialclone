@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bkg"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/round_remove_24"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/createText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:text="Create"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutReel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/reel_outline"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reel"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutPost"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/pro_pic_menu_blck"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutStory"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/story"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Story"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutStory_high"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/story_high"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Story Highlight"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutLive"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/live"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutGuide"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guide"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guide"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="#2A000000"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+</LinearLayout>

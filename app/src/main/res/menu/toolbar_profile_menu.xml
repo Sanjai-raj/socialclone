@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings and privacy"
+        android:icon="@drawable/setting"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/activity"
+        android:title="Your activity"
+        android:icon="@drawable/activity"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/Archive"
+        android:title="Archive"
+        android:icon="@drawable/archive"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/QR"
+        android:title="QR code"
+        android:icon="@drawable/qr"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/Saved"
+        android:title="Saved"
+        android:icon="@drawable/save_outline"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/payments"
+        android:title="Orders and payments"
+        android:icon="@drawable/debit_card"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/friends"
+        android:title="Close friends"
+        android:icon="@drawable/cl_friends"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/Favourites"
+        android:title="Favourites"
+        android:icon="@drawable/fav"
+        android:checkable="true"
+        />
+
+
+</menu>
